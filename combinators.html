@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS组合选择器</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+        /* .color {
+            color: blue;
+        } */
+        /* div h3 {
+            color: blue;
+            
+
+        }
+        div li p { 
+            color: blue;
+
+        } */
+        div>p {
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>标题1</h1>
+        <p>段落1</p>
+        <h3 class="color">标题2</h3>
+        <ol>
+            <li class="color"><p>这是一段文字</p></li>
+            <li class="color"><p>这是一段文字</p></li>
+            <li class="color"><p>这是一段文字</p></li>
+        </ol>
+    </div>
+</body>
+</html>
